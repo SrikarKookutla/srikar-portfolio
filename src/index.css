@@ -365,56 +365,33 @@ body {
   z-index: -1;
 }
 
-.profile-card {
-  padding: 2rem;
-  width: 100%;
-  max-width: 400px;
-  background: rgba(15, 23, 42, 0.6);
-}
-
-.code-block {
-  font-family: 'Fira Code', monospace;
-  font-size: 0.9rem;
-}
-
-.code-header {
+.profile-photo-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
   display: flex;
-  gap: 6px;
-  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.dot {
-  width: 10px;
-  height: 10px;
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 0 40px rgba(99, 102, 241, 0.3),
+    0 0 80px rgba(236, 72, 153, 0.2);
+  transition: all 0.3s ease;
 }
 
-.dot.red {
-  background: #ff5f56;
-}
-
-.dot.yellow {
-  background: #ffbd2e;
-}
-
-.dot.green {
-  background: #27c93f;
-}
-
-.keyword {
-  color: #c678dd;
-}
-
-.variable {
-  color: #e5c07b;
-}
-
-.property {
-  color: #e06c75;
-}
-
-.string {
-  color: #98c379;
+.profile-photo:hover {
+  border-color: var(--primary);
+  box-shadow:
+    0 0 50px rgba(99, 102, 241, 0.5),
+    0 0 100px rgba(236, 72, 153, 0.3);
+  transform: scale(1.02);
 }
 
 .animate-float {

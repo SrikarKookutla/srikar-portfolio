@@ -39,23 +39,8 @@ const Hero = () => {
                     className="hero-visual"
                 >
                     <div className="glow-circle"></div>
-                    <div className="glass-card profile-card animate-float">
-                        <div className="code-block">
-                            <div className="code-header">
-                                <span className="dot red"></span>
-                                <span className="dot yellow"></span>
-                                <span className="dot green"></span>
-                            </div>
-                            <pre>
-                                <code>
-                                    <span className="keyword">const</span> <span className="variable">qaEngineer</span> = {'{'}
-                                    <span className="property">name</span>: <span className="string">"{profile.name}"</span>,
-                                    <span className="property">skills</span>: [<span className="string">"Playwright"</span>, <span className="string">"TypeScript"</span>],
-                                    <span className="property">passion</span>: <span className="string">"Quality"</span>
-                                    {'}'};
-                                </code>
-                            </pre>
-                        </div>
+                    <div className="profile-photo-container animate-float">
+                        <img src={profile.profilePhoto} alt={profile.name} className="profile-photo" />
                     </div>
                 </motion.div>
             </div>

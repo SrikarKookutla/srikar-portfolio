@@ -16,9 +16,10 @@ export const profile = {
     name: "Srikar Kookutla",
     role: "QA Senior Software Engineer",
     email: "srikar.kookutla@gmail.com",
-    linkedin: "https://www.linkedin.com/in/srikar-kookutla",
-    github: "https://github.com/srikarkookutla", // Inferred correct handle or placeholder
+    linkedin: "https://www.linkedin.com/in/srikar-kookutla-304a22147/",
+    github: "https://github.com/SrikarKookutla",
     location: "Hyderabad, India",
+    profilePhoto: "/profile.png",
     about: [
         "Result-driven professional targeting assignments in the domain of Software Testing, Automation Testing & Analyst in the IT industry.",
         "Experienced QA professional with over 4 years in the industry, currently working as a QA Senior Software Engineer at Trianz, specializing in test automation using Playwright and TypeScript.",
