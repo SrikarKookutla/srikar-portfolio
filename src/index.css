@@ -345,14 +345,15 @@ body {
 
 .hero-visual {
   position: relative;
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
 }
 
 @media (min-width: 768px) {
   .hero-visual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 0;
   }
 }
 
@@ -480,7 +481,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
-  flex-col: column;
+  flex-direction: column;
   gap: 2rem;
 }
 

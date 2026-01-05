@@ -26,7 +26,7 @@ const Hero = () => {
                         <a href="#projects" className="btn btn-primary">
                             View Work <ArrowRight size={18} />
                         </a>
-                        <a href="/resume.pdf" className="btn btn-outline" download>
+                        <a href={`${import.meta.env.BASE_URL}Srikar_Kookutla.docx`} className="btn btn-outline" download>
                             Download CV <Download size={18} />
                         </a>
                     </div>

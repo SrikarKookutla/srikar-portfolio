@@ -19,7 +19,7 @@ export const profile = {
     linkedin: "https://www.linkedin.com/in/srikar-kookutla-304a22147/",
     github: "https://github.com/SrikarKookutla",
     location: "Hyderabad, India",
-    profilePhoto: "/profile.png",
+    profilePhoto: "profile.png",
     about: [
         "Result-driven professional targeting assignments in the domain of Software Testing, Automation Testing & Analyst in the IT industry.",
         "Experienced QA professional with over 4 years in the industry, currently working as a QA Senior Software Engineer at Trianz, specializing in test automation using Playwright and TypeScript.",
@@ -28,10 +28,10 @@ export const profile = {
         "Expertise in Software Testing including creation of test scripts/cases, execution of Functional Tests and tracking of defects using various tools."
     ],
     skills: [
-        { category: "Automation Testing", items: ["Playwright", "Selenium", "Cypress", "TestComplete"], icon: Code },
+        { category: "Automation Testing", items: ["Playwright"], icon: Code },
         { category: "Languages", items: ["TypeScript", "JavaScript", "Python", "SQL", "HTML/CSS"], icon: Terminal },
-        { category: "Cloud & DevOps", items: ["AWS", "Azure", "GCP", "Docker", "Jenkins", "Git", "Azure DevOps"], icon: Cloud },
-        { category: "Tools", items: ["Jira", "Postman", "Swagger", "VS Code", "Putty"], icon: Monitor },
+        { category: "Cloud & DevOps", items: ["AWS", "Azure", "Jenkins", "Git", "Azure DevOps"], icon: Cloud },
+        { category: "Tools", items: ["Playwright", "Jira", "Postman", "Swagger", "VS Code", "Putty", "AntiGravity", "Zephyr", "Claude"], icon: Monitor },
         { category: "Operating Systems", items: ["Windows", "Linux", "Mac"], icon: Cpu },
     ],
     experience: [
@@ -57,16 +57,16 @@ export const profile = {
         {
             id: 1,
             title: "Concierto Cloud (Manage/Maximize/Migrate)",
-            duration: "Around 4 Years",
+            duration: "Around 4.5 Plus Years",
             role: "Senior Software Engineer",
             tech: ["Playwright", "TypeScript", "JavaScript", "Jira", "Git", "Jenkins"],
             description: "Concierto is a hybrid cloud platform that offers three core products: Manage, Migrate, and Maximize. It supports end-to-end infrastructure management and migration.",
             details: [
                 "Design and Test Cases based on Automation Tasks assigned during Sprint Planning.",
                 "Working as UI Automation Engineer with Playwright and JavaScript.",
-                "Covered 100+ sprints tasks adapting and learning new technologies.",
+                "Covered 150+ sprints tasks adapting and learning new technologies.",
                 "Provided thorough verification of over 856 user stories/tasks covering UX, frontend, and backend.",
-                "Created around 2898 bugs from product through Automation and Manual.",
+                "Created around 3208+ bugs from product through Automation and Manual.",
                 "Validated developed Cloud Automations by manually logging into servers.",
                 "Experience in Patching configured servers through WSUS Console.",
                 "Validating Health Check of servers in line with CIS benchmarks."
@@ -86,8 +86,5 @@ export const profile = {
             score: "97%",
             year: ""
         }
-    ],
-    achievements: [
-        "Recognized as a Critical Resource in the team within a short span."
     ]
 };
